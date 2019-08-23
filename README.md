@@ -7,5 +7,4 @@ CA-EHN contains/spans
 For more details, please see: https://arxiv.org/abs/1908.07218
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-Copyright 2019 Peng-Hsuan Li,<br />
-based on https://github.com/ckiplab/CA-EHN
+Copyright 2019 CKIP
