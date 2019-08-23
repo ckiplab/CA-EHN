@@ -1,0 +1,1472 @@
+BodyFluid|體液 體液
+{part({AnimalHuman|動物}):qualification={StateLiquid|液態}}
+ElderBrother|兄 兄|兄長|哥|哥哥|胞兄
+{brother|兄弟:age={elder|年長}}
+ElderSister|姊 姊|姊姊|姐|姐姐|老姐
+{sister|姊妹:age={elder|年長}}
+FlowerGrass|花草 花草
+{plant|植物:size={small|小}}
+InsectWorm|蟲 昆蟲|蟲|蟲兒|蟲子
+{animal|獸:predication={and({fly|飛},{crawl|爬}):theme={~}},size={small|小}}
+LandVehicle|車 車|車子
+{vehicle|交通工具:location={land|陸地}}
+MusicTool|樂器 樂器
+{implement|器具:telic={produce|製造:PatientProduct={music|音樂}}}
+PenInk|筆墨 筆墨
+{stationery|文具:telic={write|寫:instrument={~}}}
+RainSnow|雨雪 雨雪
+{NaturalThing|天然物:material={water|水}}
+YoungerBrother|弟 弟|弟弟|老弟|胞弟
+{brother|兄弟:age={younger|年幼}}
+YoungerSister|妹 妹|妹妹|胞妹
+{sister|姊妹:age={younger|年幼}}
+account|簿冊 本子|簿子
+{document|文書:content={information|訊息:kind={certain|某}}}
+aircraft|飛行器 飛行器
+{vehicle|交通工具:predication={fly|飛:theme={~}}}
+animal|獸 動物|禽獸|野獸|飛禽走獸
+{AnimalHuman|動物:wisdom={foolish|愚}}
+animate|生物 動植物|有機體|生物|生物體
+{physical|物質:state={alive|活著}}
+arm|臂 手臂|胳膊|胳臂|臂|臂膀
+{part({limb|肢}):telic={do|做:instrument={~}}}
+artifact|人工物 成品|物品|製品
+{inanimate|無生物:agentive={artificial|人為}}
+bacteria|微生物 微生物
+{animate|生物:size={small|小:degree={very|很}}}
+beast|走獸 獸|走獸
+{animal|獸:predication={walk|走:theme={~}},predication={not({foster|飼養}):patient={~}},predication={own|有:possession={foot|腳:quantity={4}},theme={~}}}
+bill|單據 票據
+XXXXXXXXXX
+bird|禽 禽|飛禽|飛鳥|鳥|鳥兒|鳥禽|鳥類
+{animal|獸:predication={fly|飛:theme={~}},predication={own|有:possession={wing|翅:quantity={2}},theme={~}}}
+body|身 肉身|身子|身軀|身體|軀體|體
+{BodyPart({AnimalHuman|動物})}
+bone|骨 骨|骨頭|骨骼
+{skeleton({AnimalHuman|動物}):telic={SupportWeight|托住:causer={~}}}
+bridge|橋樑 橋|橋樑
+{facilities|設施:telic={cross|越過:location={河|river}}}
+brother|兄弟 伯仲|兄弟|親兄弟
+{sibling|手足:gender={male|男}}
+building|建築物 建物|建築|建築物
+{artifact|人工物:qualification={concrete|具體},telic={functioning|運作:agent={human|人},location={~}}}
+celestial|天體 天體|星|星星|星球|星體
+{NaturalThing|天然物:location={surrounding({earth|大地})}}
+chemical|化學物 化學品
+{inanimate|無生物:domain={chemistry|化學}}
+clothing|衣物 服裝|服飾|衣服|衣物|衣褲
+{artifact|人工物:telic={PutOn|穿戴:theme={~}},telic={keep|保持:theme={warm|溫:theme={human|人}}}}
+computer|電腦 電腦
+{implement|器具:telic={calculate|計算}}
+container|容器 器皿|容器
+{tool|用具:telic={or({put|放置},{store|保存})}}
+coupon|票證 票|票券
+{document|文書:telic={replace|代替:theme={expenditure|費用},method={buy|買:theme={~}}}}
+crop|莊稼 作物|莊稼|農作物
+{plant|植物:telic={edible|食物}}
+daughter|女兒 女兒
+{offspring|後代:gender={female|女}}
+document|文書 文件|文書
+{readings|讀物:content={affairs|事務}}
+drinks|飲品 飲品|飲料
+{edible|食物:telic={drink|喝:patient={~}}}
+earth|大地 大地
+{行星|planet:predication={GoRound|圍繞:theme={~},content={太陽|TheSun}},name={"地球"},quantifier={definite|定指}}
+edible|食物 料理|食物|飯菜|餐食|餐點
+{artifact|人工物:telic={eat|吃:patient={~}}}
+electricity|電 電|電荷
+{Source({strength|力量:host={machine|機器}})}
+embryo|胚 胎|胚|胚胎
+{part({AnimalHuman|動物}):predication={reproduce|生殖:theme={~},TimeFeature={beginning|始}}}
+enemies|敵人 對頭|敵|敵人|敵手|敵方|死對頭|死敵
+{human|人:qualification={enemy|敵}}
+excrement|排泄物 分泌物|排泄物
+{waste|廢物:source={animate|生物}}
+expenditure|費用 花費|費用|開銷
+{wealth|錢財:predication={pay|付:theme={~},while={buy|買}}}
+eye|眼 目|眸子|眼|眼眸|眼睛
+{part({臉|face}):telic={look|看:instrument={~}}}
+facilities|設施 設備|設施
+{building|建築物:telic={use|利用}}
+father|父 父|父親|爸|爸爸|爹|爹爹|老子
+{parents|父母:gender={male|男}}
+fire|火 火|火焰|火燄
+{result({burn|焚燒}):qualification={hot|熱:degree={extreme|極}}}
+fish|魚 魚|魚兒|魚類
+{animal|獸:predication={swim|游:theme={~},location={waters|水域}}}
+flesh|肉 肉
+{part({AnimalHuman|動物}):telic={eat|吃:patient={~}}}
+food|食品 食品
+{edible|食物:qualification={BeGood|良態}}
+foot|腳 腳|足|足部
+{EndPart({limb|肢}):telic={SelfMove|自移:instrument={~}}}
+forefathers|祖先 先人|先祖|先輩|祖上|祖先|祖宗|老祖宗
+{senior|長輩:KinshipFeature={lineal|直系},state={die|死}}
+friends|朋友 友|友人|友伴|朋友
+{human|人:friendliness={friendly|友善 }}
+fruit|水果 果|果子|果實|水果
+{part({plant|植物}):telic={reproduce|生殖:position={~}},flavor={sweet|甜}}
+fund|資金 基金|本|本錢|經費|資本|資金
+{wealth|錢財:telic={做生意|DoBusiness}}
+furniture|家具 傢俱|傢具
+{implement|器具:location={house|房屋}}
+gas|氣 氣|氣體|汽
+{physical|物質:state={StateGas|氣態}}
+hair|毛 毛
+{part({AnimalHuman|動物}):telic={keep|保持:theme={warm|溫},instrument={~}},dimension={linear|線:qualification={fine|纖}}}
+hand|手 手
+{part({limb|肢}):telic={hold|拿:instrument={~}}}
+head|頭 頭|頭部|頭顱|顱
+{TopPart({AnimalHuman|動物})}
+heart|心 心|心臟
+{viscera|臟:telic={circulate|循環:instrument={~}},location={CentrePart({AnimalHuman|動物})}}
+house|房屋 屋子|屋舍|房|房子|房屋|房舍
+{building|建築物:telic={or({reside|住下 },{store|保存})}}
+human|人 人|人兒|人類
+{AnimalHuman|動物:wisdom={wise|智}}
+husband|丈夫 丈夫|先生|夫|夫婿|老公
+{spouse|配偶:gender={male|男}}
+ice|冰 冰
+{water|水:state={StateSolid|固態},temperature={cold|冷}}
+implement|器具 器具|器材|器物
+{artifact|人工物:usefulness={useful|有用}}
+inanimate|無生物 無生物
+{physical|物質:state={not({alive|活著})}}
+junior|小輩 小輩|後生|後輩|晚輩
+{human|人:generation={offspring|後代}}
+land|陸地 土|土地|地|陸|陸地
+{part({earth|大地}):component={stone|土石}}
+leg|腿 腿
+{part({limb|肢}):telic={SelfMove|自移:instrument={~}}}
+letter|信件 信|信件|信函|書信
+{document|文書:content={私事|PrivateAffair}}
+lights|光 光|光線
+{content({look|看})}
+limb|肢 手足|肢
+{part({AnimalHuman|動物}):telic={or({SelfMove|自移},{do|做}):instrument={~}}}
+liquid|液 液體
+{physical|物質:state={StateLiquid|液態}}
+livestock|牲畜 家畜|牲口|牲畜|畜|畜牲|畜生
+{animal|獸:predication={walk|走:theme={~}},predication={foster|飼養:patient={~}},predication={own|有:possession={foot|腳:quantity={4}},theme={~}}}
+machine|機器 機器|機械
+{implement|器具:strength={powerful|有威力}}
+master|主人 主人|主人翁|東道主
+{human|人:predication={own|有:theme={~}}}
+medicine|藥物 藥|藥劑|藥品|藥物|醫藥品
+{artifact|人工物:telic={doctor|醫治:instrument={~}}}
+metal|金屬 金屬
+{material|材料:qualification={durable|牢}}
+money|貨幣 貨幣|錢|錢幣
+{wealth|錢財:predication={issue|分發:agent={政府|government},theme={~}}}
+mother|母 娘|媽|媽咪|媽媽|母|母親|老媽|阿母
+{parents|父母:gender={female|女}}
+mouth|口 口|嘴|嘴巴
+{part({臉|face}):telic={eat|吃:instrument={~}}}
+offspring|後代 兒女|兒孫|子女|子子孫孫|子孫|孩子|後世|後人|後代|後裔
+{relatives|親戚:generation={junior|小輩},KinshipFeature={lineal|直系}}
+paper|紙張 紙|紙張
+{stationery|文具:telic={write|寫:location={~}}}
+parents|父母 父母|父母親|爸媽|爹娘|雙親
+{relatives|親戚:generation={senior|長輩},KinshipFeature={lineal|直系}}
+payment|酬金 俸|報酬|待遇|酬|酬勞|酬金
+{wealth|錢財:predication={receive|收受:possession={~},while={工作|work}}}
+physical|物質 實體|物質|物體
+{thing|萬物:qualification={concrete|具體}}
+plant|植物 植株|植物|花木|草木
+{animate|生物:ability({SelfMove|自移})={least|無}}
+publications|書刊 書刊
+{readings|讀物:predication={sell|賣:theme={~}}}
+readings|讀物 讀物
+{artifact|人工物:telic={and({read|讀},{provide|供:theme={information|訊息}})}}
+relatives|親戚 家人|家屬|家眷|眷屬|親人|親屬|親戚|親族
+XXXXXXXXXX
+room|房間 廂房|房|房間|部屋
+{part({house|房屋}):telic={or({reside|住下 },{store|保存})}}
+route|道路 路|道|道路|馬路
+{facilities|設施:telic={VehicleGo|駛}}
+self|自己 己|己身|本人|自個兒|自己|自身
+{speaker|說話者}
+senior|長輩 父執輩|長輩
+{human|人:generation={aged|老年}}
+ship|船 船|船隻
+{vehicle|交通工具:location={waters|水域}}
+sibling|手足 手足
+{relatives|親戚:generation={SameGeneration|同輩}}
+sister|姊妹 姊妹|姐妹
+{sibling|手足:gender={female|女}}
+skin|皮 外皮|皮|皮膚
+{surface({animate|生物}):telic={protect|保護:instrument={~}}}
+sky|空域 天|天空|穹蒼|空|空中|蒼穹
+{part({earth|大地}):component={gas|氣},location={surrounding({land|陸地})}}
+software|軟體 程式|軟件|軟體
+{process|過程:agent={computer|電腦}}
+son|兒子 兒|兒子
+{offspring|後代:gender={male|男}}
+sound|聲 聲音|聲響|音
+{result({MakeSound|發聲})}
+spouse|配偶 配偶
+{relatives|親戚:predication={GetMarried|結婚:agent={~},manner={EachOther|相互}}}
+stationery|文具 文具
+{implement|器具:telic={write|寫}}
+tail|尾 尾巴|尾部
+{EndPart({animal|獸})}
+thunder|雷 雷
+{sound|聲:cause={閃電|lightning}}
+tool|用具 工具|用具|用品
+{implement|器具:size={small|小}}
+trace|痕 痕|痕跡|跡
+{mark|標誌:predication={create|創造:patient={~},intentionality={unintentional|無意}}}
+treasure|珍寶 寶|寶物|寶藏|寶貝|珍寶|至寶
+{wealth|錢財:material={inanimate|無生物},price={expensive|貴:degree={extreme|極}}}
+tree|樹 樹|樹木
+{plant|植物:size={big|大},predication={own|有:possession={union({莖|PlantStem},{葉子|leaf})}}}
+vegetable|蔬菜 菜|菜蔬|蔬菜|青菜
+{plant|植物:telic={eat|吃:patient={~}}}
+vehicle|交通工具 載具
+{implement|器具:telic={transport|運送}}
+viscera|臟 五臟六腑|內臟|臟腑
+{internal({body|身}):telic={metabolize|代謝:instrument={~}}}
+waste|廢物 垃圾|廢棄物|廢物
+{inanimate|無生物:usefulness={useless|無用}}
+waters|水域 水域|水澤
+{part({earth|大地}):component={water|水}}
+water|水 水
+{liquid|液:necessity={extreme|極},qualification={important|重要}}
+wealth|錢財 財|財富|財物|財產|金錢|錢財
+{artifact|人工物:qualification={precious|珍},telic={buy|買}}
+weapon|武器 兵器|刀槍|槍械|武器
+{implement|器具:domain={military|軍} ,telic={kill|殺害}}
+wife|妻子 妻|妻子|愛妻|牽手|老婆
+{spouse|配偶:gender={female|女}}
+wind|風 風|風兒
+{空氣|air:speed={fast|快}}
+wing|翅 翅|翅膀
+{part({or({bird|禽},{InSectWorm|蟲})}):telic={fly|飛:instrument={~}}}
+wood|木 木頭
+{material|材料:source={tree|樹}}
+上帝|God 上天|上帝|上蒼|祂
+{humanized|擬人:predication={create|創造:agent={~}},qualification={BeGood|良態}}
+丘陵|hill 丘|丘陵|丘陵地
+{山|mountain:height={low|低}}
+中國人|Chinese 中國人
+{國民|citizen:nationality={中國|China}}
+中學|MiddleSchool 中學
+{學校|school:rank={intermediate|中等}}
+主教|bishop 主教
+{教徒|ReligiousFollower:predication={manage|管理:agent={~}},domain={catholic|天主教}}
+主管|superintendent 上司|上級|長官
+{human|人:predication={manage|管理:agent={~}}}
+主角|LeadingRole 主角
+{角色|role:domain={entertainment|藝},qualification={primary|主}}
+乳品|DairyProducts 乳品|鮮奶
+{drinks|飲品:source={or({牛|cattle},{羊|sheep})}}
+乳房|breast 乳房|奶子|胸部
+{FrontPart({胸|chest}):telic={哺乳|BreastFeed:position={~}}}
+井|AWell 井|水井
+{facilities|設施:telic={take|取:theme={water|水},source={~}},location={beneath({land|陸地})}}
+交通網|TrafficNet 交通網
+{route|道路:shape={shape({網子|net})},telic={transport|運送:instrument={~}},qualification={complicated|繁}}
+人才|talent 人才|人材|才人|才俊|英才
+{human|人:HumanPropensity={able|能}}
+人民|people 人民|全民|國人|民間|老百姓
+{群眾|TheMasses:predication={manage|管理:content={~}}}
+人選|candidate 人選
+{human|人:predication={choose|選擇:content={~}}}
+低地|lowland 低地
+{land|陸地:shape={dented|凹}}
+住所|residence 住宅|住家|住屋|住所|住處|家宅|寓所|居所|居處
+{house|房屋:telic={reside|住下:location={~}}}
+作品|works 作品|創作
+{artifact|人工物:agentive={create|創造:PatientProduct={~}}}
+作料|seasoning 佐料|作料|調味品|調味料
+{食材|FoodIngredients:telic={adjust|調整:content={flavor({edible|食物})},material={~}}}
+佣人|servant 下人|傭人|僕人|僕役|僱傭|奴僕|家僕|幫傭
+{專業人士|professional:predication={engage|從事:content={affairs|事務},location={family|家庭},agent={~}}}
+候鳥|MigratoryBird 候鳥
+{bird|禽:predication={SelfMoveInManner|方式性自移:agent={~},cause={season|季}}}
+偵探|detective 偵探|密探
+{專業人士|professional:predication={scout|偵察:agent={~}}}
+僑胞|compatriots 僑民|僑胞|外僑
+{國民|citizen:predication={SelfMove|自移:LocationFin={country|國家:qualification={foreign|外國}},purpose={reside|住下},theme={~}}}
+僧人|monk 僧|僧人|僧侶|和尚|喇嘛|法師
+{神職人員|clergy:gender={male|男},domain={Buddhism|佛教}}
+儒者|Confucianist 儒|儒者
+{思想家|philosopher:predication={research|研究:agent={~},content={knowledge|知識:content={孔子|Confucius}}}}
+元首|HeadOfState 元首|統治者
+{領袖|leader:predication={manage|管理:content={country|國家},agent={~}},domain={politics|政治}}
+先進|SeniorInExperience 先導|先進
+{領袖|leader:predication={undergo|經受:TimeFeature={early|早},experiencer={~}}}
+兔|rabbit 兔|兔子
+{livestock|牲畜:predication={jump|跳:theme={~}}}
+內衣|underwear 內衣|汗衫|襯衣
+{clothing|衣物:qualification={private|私}}
+公主|princess 公主
+{daughter({君主|monarch})}
+公務員|PublicServant 公務人員|公務員|公職人員|官員
+{專業人士|professional:qualification={able|能:content={handle|處理:content={affairs|事務:qualification={public|共}}}}}
+公文|OfficialDocument 公函|公文
+{document|文書:qualification={formal|正式}}
+公路|highway 公路
+{車道|TrafficLane:size={big|大}}
+公車|bus 公共汽車|公車|巴士
+{汽車|MotorVehicle:telic={transport|運送:instrument={~},theme={群眾|TheMasses}}}
+典籍|ClassicalBooks 典籍|經典
+{書籍|books:qualification={classic|經典}}
+出入口|gateway 入口|出入口|出口|進出口
+{part({building|建築物}):telic={or({GoInto|進入},{GoOut|出去}):LocationThru={~}}}
+刀劍|sword 刀劍|劍
+{weapon|武器:telic={kill|殺害:method={cut|切削}}}
+刀子|knife 刀|刀子
+{tool|用具:telic={or({cut|切削},{split|破開}):instrument={~}}}
+別墅|villa 別墅|別館
+{house|房屋:size={big|大},qualification={extravagant|奢},telic={WhileAway|消閒:location={~}}}
+利息|BankInterest 利息
+{利潤|profit:cause={存款|savings}}
+利潤|profit 利潤|收益|獲利|盈利|盈餘
+{wealth|錢財:domain={economy|經濟},predication={earn|賺:theme={~}}}
+制服|uniform 制服
+{clothing|衣物:telic={PutOn|穿戴:agent={or({學生|student},{員工|staff})}},qualification={formal|正式}}
+剪刀|scissors 剪刀
+{tool|用具:telic={cut|切削:instrument={~}}}
+副本|duplicate 副本|影本|複本|謄本
+{readings|讀物:predication={copy|抄寫:result={~}}}
+創始人|founder 創始人|創辦人|始祖|祖師|鼻祖
+{人才|talent:predication={establish|建立:agent={~}}}
+動脈|artery 動脈
+{血管|BloodVessel:telic={transport|運送:theme={血液|blood},LocationIni={heart|心},LocationThru={~}}}
+勺子|ladle 杓
+{tool|用具:telic={TakeOutOfWater|撈起:instrument={~}}}
+化妝品|cosmetics 化妝品|化粧品
+{tool|用具:telic={MakeUp|化妝:instrument={~}}}
+匾額|HorizontalInscribedBoard 匾|匾額
+{tool|用具:predication={write|寫:LocationFin={~},purpose={praising|誇獎}}}
+卡片|card 卡片
+{paper|紙張:attribute={hard|硬},qualification={thin|薄}}
+印章|seal 印|印石|印章|印鑑|圖章
+{stationery|文具:telic={sign|題寫:content={name({human|人})},means={press|按壓},instrument={~}}}
+原住民|aborigine 原住民|土人|土著
+{居民|resident:predication={reside|住下:theme={~},manner={original|原}}}
+受害人|victim 受害人|受害者|被害人
+{human|人:predication={MakeBad|加害:patient={~}}}
+口水|saliva 口水|唾沫|唾液
+{BodyFluid|體液:source={mouth|口},telic={digest|消化}}
+古籍|AncientBooks 古籍
+{典籍|ClassicalBooks:TimePoint={past|過去}}
+台子|platform 台|平台|平臺|臺
+{facilities|設施:shape={planar|面}}
+史書|HistoryBook 史冊|史書|史籍|青史
+{書籍|books:content={歷史|history}}
+吉他|guitar 吉他
+{MusicTool|樂器:predication={exist|存在:theme={part({MusicTool|樂器}):shape={linear|線}},location={~}}}
+同事|colleague 同事|同僚
+{員工|staff:predication={engage|從事:agent={~},manner={together|共同}}}
+同學|schoolmate 同學|同窗
+{學生|student:predication={study|學習:manner={together|共同},companion={~}}}
+名人|celebrity 名人|名士|風雲人物
+{human|人:qualification={WellKnown|著名}}
+吏|OfficialInFeudalTimes 官宦
+{公務員|PublicServant:TimePoint={past|過去}}
+君主|monarch 君主|君王|國君|國王|王
+{元首|HeadOfState:domain={royal|皇}}
+員工|staff 人員|僱員|員工|職員
+{屬下|subordinate:predication={employ|僱用:patient={~}}}
+唇|lip 唇|唇部|嘴唇|脣
+{surface({mouth|口}):color={red|紅}}
+商人|businessman 商人|業者|生意人
+{專業人士|professional:qualification={able|能:content={sell|賣}},domain={economy|經濟}}
+商品|commodity 商品|貨品|貨物
+{artifact|人工物:telic={and({buy|買:theme={~}},{sell|賣:theme={~}})}}
+商店|shop 商家|商店|店|店舖|門市
+{facilities|設施:telic={and({buy|買},{sell|賣})},domain={economy|經濟}}
+喇叭|trumpet 喇叭|小號
+{管樂器|WindInstrument:predication={wide|寬:theme={EndPart({~})}}}
+喉嚨|throat 咽|咽喉|喉|喉嚨
+{EndPart({mouth|口}):telic={or({MakeSound|發聲:instrument={~}},{swallow|嚥下:instrument={~}})}}
+喬木|arbor 喬木
+{tree|樹:height={high|高},predication={own|有:possession={樹幹|trunk}}}
+單子|list 單子
+{bill|單據:size={small|小},quantity={1}}
+國民|citizen 國民
+{人民|people:location={country|國家}}
+圍巾|scarf 圍巾
+{clothing|衣物:predication={PutOn|穿戴:theme={~},position={脖子|neck}}}
+園圃|orchard 園子|果園
+{園林|garden:telic={planting|栽植:patient={or({fruit|水果},{vegetable|蔬菜},{花|flower})},location={~}}}
+土壤|soil 土|土壤
+{stone|土石:telic={planting|栽植:location={~}}}
+坡地|SlopeLand 坡|山坡|山坡地
+{land|陸地:shape={slanted|歪}}
+城堡|castle 城堡
+{house|房屋:telic={or({defend|防守},{reside|住下}):location={~}},surrounding={牆壁|wall}}
+堡壘|fort 堡|堡壘|壘|碉堡
+{facilities|設施:telic={protect|保護},domain={military|軍}}
+堤防|embankment 堤|堤岸|堤防
+{facilities|設施:telic={obstruct|阻止:instrument={~},content={waterlogging|澇}}}
+報紙|newspaper 報|報章|報紙
+{publications|書刊:content={news|新聞}}
+塔|tower 塔|尖塔|高塔
+{樓房|TallBuilding:shape={pointed|尖}}
+墊子|mat 墊子
+{tool|用具:telic={put|放置:location={beneath({object|物體})},theme={~}}}
+墨|ink 墨|墨水|墨汁
+{PenInk|筆墨:telic={write|寫:material={~}},color={black|黑}}
+墳墓|grave 墓|墳|墳墓
+{facilities|設施:telic={bury|埋入:location={~},theme={AnimalHuman|動物:predication={die|死:theme={~}}}}}
+壞人|rascal 壞人|壞蛋|惡人
+{human|人:HumanPropensity={wicked|歹}}
+士兵|soldier 兵|兵士|卒|士兵|大兵|小兵|軍人|阿兵哥
+{專業人士|professional:predication={fight|爭鬥:agent={~}},domain={military|軍}}
+壺|kettle 壺
+{container|容器:telic={spray|灑下:theme={liquid|液}}}
+外國人|foreigner 外國人|老外
+{國民|citizen:qualification={foreign|外國}}
+外套|overcoat 外套|外衣|夾克
+{clothing|衣物:telic={cover|遮蓋:theme={body|身},instrument={~}}}
+大學|university 大學|大專|大專院校
+{學校|school:rank={HighRank|高等}}
+大象|elephant 大象|象
+{草食獸|herbivora:predication={own|有:possession={鼻子|nose:length={LengthLong|長}}}}
+太空|OuterSpace 太空
+{sky|空域:distance={far|遠}}
+太空船|spaceship 太空梭|太空船
+{aircraft|飛行器:location={太空|OuterSpace}}
+太陽|sun 太陽|日
+{恆星|FixedStar:name={"太陽"}}
+夫妻|HusbandAndWife 伉儷|夫妻|夫婦|連理
+{union({husband|丈夫},{wife|妻子})}
+女佣|maidservant 侍女|女傭|女僕|奴婢|婢女
+{佣人|servant:gender={female|女}}
+女孩|girl 丫頭|女娃|女孩|女孩兒|女孩子|女童|小妹妹|小姑娘|黃毛丫頭
+{女性|woman:age={child|少兒}}
+女性|woman 女|女人|女子|女性|女生|小姐
+{human|人:gender={female|女}}
+奴隸|slave 奴|奴才|奴隸
+{屬下|subordinate:freedom={controlled|受限},predication={own|有:possession={~}}}
+好人|GoodPerson 仁者|善人|好人|好心人
+{human|人:HumanPropensity={benevolent|仁}}
+妓女|prostitute 妓|妓女|娼|娼妓|應召女郎|野雞
+{女性|woman:telic={SeekPleasure|尋歡:means={mating|交配},companion={~}}}
+妖怪|goblin 妖|妖怪|妖精|妖魔|妖魔鬼怪|怪物|精靈|靈|鬼怪|魔|魔鬼
+{humanized|擬人:HumanPropensity={vicious|罪惡}}
+委員|CommitteeMember 委員
+{成員|member:predication={entrust|委託:manner={lawful|合法},target={~}}}
+婦女|MarriedWomen 太太|婆婆媽媽|婦人|婦女
+{女性|woman:age={adult|成年},qualification={married|已婚}}
+媳婦|WifeOfSon 兒媳婦|媳|媳婦
+XXXXXXXXXX
+嫌犯|suspect 嫌犯|嫌疑犯|疑犯
+{犯人|criminals:predication={doubt|懷疑:content={guilty|有罪},target={~}}}
+嬰兒|baby 嬰|嬰兒|嬰孩|寶寶|小寶寶
+{human|人:predication={ComeToWorld|問世:theme={~},TimePoint={recent|新近}}}
+子宮|womb 子宮
+{生殖器|ReproductiveOrgan:gender={female|女}}
+子彈|bullet 子彈|槍彈
+{彈藥|ammunition:predication={shoot|發射:theme={~}}}
+孔子|Confucius 孔夫子|孔子|至聖先師
+{思想家|philosopher:quantifier={definite|定指},name={"孔子"},TimePoint={春秋戰國|WarringStates}}
+孟子|Mencius 孟子
+{思想家|philosopher:quantifier={definite|定指},name={"孟子"},TimePoint={春秋戰國|WarringStates}}
+學校|school 學校|學苑
+{facilities|設施:telic={and({teach|教},{study|學習}):location={~},domain={education|教育}}}
+學生|student 學生|弟子|徒弟|桃李|生|門下|門徒|門生
+{human|人:predication={study|學習:agent={~}}}
+學者|scholar 學人|學士|學者|有識之士|知識份子|知識分子
+{專業人士|professional:qualification={able|能:content={research|研究}},HumanPropensity={erudite|有學問}}
+學院|college 學院
+{學校|school:rank={HighRank|高等}}
+客人|guest 來賓|客|客人|賓|賓客
+{human|人:predication={visit|看望:agent={~}}}
+家電|HouseholdElectricalAppliances 家電
+{machine|機器:predication={mobilize|發動:instrument={electricity|電},patient={~}},location={family|家庭}}
+宿舍|dormitory 宿舍
+{house|房屋:qualification={public|共}}
+富人|RichMan 大亨|富人|富翁|富豪|巨富|有錢人|財主
+{human|人:qualification={rich|富}}
+寶石|gem 寶石
+{treasure|珍寶:material={石頭|stone}}
+寺廟|temple 僧院|寺|寺廟|寺院|廟|廟宇
+{facilities|設施:domain={religion|宗教}}
+射線|ray 射線|放射線
+{lights|光:intensity={strong|強},domain={or({industrial|工業},{medical|醫})}}
+將軍|GeneralOfficer 將官|將軍|將領
+{軍官|officer:qualification={HighRank|高等}}
+專校|VocationalSchool 專校|職校
+{學校|school:telic={and({teach|教},{study|學習}):content={ability({工作|work})},location={~},domain={education|教育}}}
+專業人士|professional 內行人|專家|專才|行家
+{human|人:qualification={able|能:content={event|事件},purpose={earn|賺}}}
+小孩|children 兒童|孩兒|孩子|孩童|小孩|小孩兒|小孩子|小朋友|幼兒|幼童|童
+{human|人:age={child|少兒},ripeness={unripe|未成熟}}
+小學|PrimarySchool 國小|國民小學|小學
+{學校|school:rank={elementary|初等}}
+小徑|path 小徑|小路|小道|徑|羊腸小徑|蹊徑
+{route|道路:size={small|小},width={narrow|窄}}
+少年|YoungBoy 小夥子|少年|少年人
+{human|人:gender={male|男},age={young|青年:degree={very|很}}}
+尿液|urine 尿|尿液
+{excrement|排泄物:attribute={StateLiquid|液態}}
+居民|resident 住戶|住民|居民
+{人民|people:predication={reside|住下:theme={~}}}
+屍體|corpse 屍|屍身|屍骨|屍骸|屍體|死屍|遺體
+{body|身:predication={die|死:theme={~}}}
+屬下|subordinate 下屬|下級|屬下|手下|部下|部屬
+{human|人:predication={manage|管理:content={~}}}
+山|mountain 山|岳|嶺
+{land|陸地:shape={protruding|凸},height={high|高}}
+山峰|MountainPeak 山峰|山巔|山頭|頂峰
+{TopPart({山|mountain})}
+山谷|MountainValley 低谷|山谷|谷|谷地
+{land|陸地:location={InBetween({山|mountain})},shape={dented|凹}}
+岩石|rock 岩石
+{石頭|stone:size={big|大}}
+岸|shore 岸|岸邊|沿岸|畔
+{land|陸地:predication={BeNear|靠近:theme={~},location={waters|水域}}}
+島|island 島|島嶼
+{land|陸地:predication={surround|包圍:theme={waters|水域},target={~}}}
+崗哨|sentry 崗哨
+{facilities|設施:domain={or({military|軍},{police|警})},telic={and({check|查},{defend|防守}):location={~}}}
+工人|worker 勞工|工人|藍領
+{專業人士|professional:qualification={able|能:content={engage|從事:manner={endeavour|賣力}}}}
+工匠|artisan 工匠
+{專業人士|professional:predication={produce|製造:agent={~}},domain={industrial|工業}}
+工廠|factory 工場|工廠|廠|廠房|製造廠
+{facilities|設施:domain={industrial|工業},telic={produce|製造:location={~}}}
+工程師|engineer 工程師
+{專業人士|professional:telic={or({build|建造:agent={~}},{manage|管理:agent={~},content={machine|機器}})}}
+巫師|wizard 巫|巫師|方士|術士
+{專業人士|professional:predication={own|有:possession={法術|wizardry},theme={~}}}
+巷子|lane 巷|巷子|巷弄|巷道|胡同
+{route|道路:location={ResidentialArea|居民區},size={small|小}}
+市場|market 市|市場|市集
+{facilities|設施:member={商店|shop:quantity={many|多}}}
+帳戶|BankAccount 帳戶|戶頭
+{account|簿冊:content={wealth|錢財:domain={銀行|bank}}}
+帽子|headgear 帽|帽子
+{clothing|衣物:predication={PutOn|穿戴:theme={~},position={head|頭}}}
+幼稚園|kindergarten 幼兒園|幼稚園
+{學校|school:telic={TakeCare|照料:patient={human|人:age={child|少兒:degree={very|很}}},location={~}}}
+床|bed 床|床舖|床鋪|臥榻
+{furniture|家具:telic={sleep|睡:location={~}}}
+座椅|chair 凳|凳子|座椅|椅子
+{furniture|家具:telic={sit|坐蹲:location={~}}}
+庸才|mediocrity 俗人
+{human|人:HumanPropensity={able|能:degree={least|無}}}
+廁所|toilet 化妝室|廁所|洗手間|盥洗室
+{room|房間:telic={excrete|排泄:agent={human|人},location={~}}}
+廊|corridor 廊|廊道|走廊|走道|長廊
+{passage({building|建築物})}
+廚師|chef 庖丁|廚子|廚師
+{專業人士|professional:predication={cook|烹調:agent={~}}}
+廳堂|hall 大堂|大廳|廳|廳堂
+{room|房間:qualification={primary|主},size={big|大}}
+弦樂器|StringedInstrument 絃樂器
+{MusicTool|樂器:predication={exist|存在:theme={part({MusicTool|樂器}):shape={linear|線}},location={~}}}
+強盜|robber 劫匪|土匪|強盜|搶匪|盜匪|盜賊
+{壞人|rascal:predication={rob|搶:agent={~}}}
+影子|shadow 影|影子|陰影
+{trace|痕:cause={lights|光},qualification={dark|暗}}
+徽|badge 徽章
+{mark|標誌:telic={mean|指代:range={status|身份}}}
+恆星|FixedStar 恆星
+{celestial|天體:qualification={constant|恆定},predication={illuminate|照射:causer={~}}}
+情人|lover 情人|愛人|戀人
+{human|人:predication={love|愛戀:content={~}}}
+情侶|lovers 情侶
+{情人|lover:predication={love|愛戀:manner={EachOther|相互},experiencer={~}},quantity={double|複}}
+感官|SenseOrgan 感官
+{viscera|臟:telic={perception|感知:instrument={~}}}
+懸崖|cliff 山崖|峭壁|崖|崖壁|懸崖|絕壁
+{land|陸地:shape={protruding|凸},qualification={steep|陡}}
+成人|adults 大人|成人|成年人
+{human|人:age={adult|成年},qualification={ripe|成熟}}
+成員|member 份子|分子|成員
+{human|人:whole={community|團體}}
+扁舟|SmallBoat 扁舟|舢板|舢舨|輕舟
+{ship|船:size={small|小},predication={GoForward|前進:causer={human|人},theme={~}}}
+扇子|fan 扇|扇子
+{tool|用具:telic={produce|製造:PatientProduct={wind|風},instrument={~},purpose={cool|製冷}}}
+手指|finger 手指|手指頭|指|指頭
+{FrontPart({hand|手}):telic={hold|拿:instrument={~}}}
+手掌|palm 巴掌|手心|手掌|手掌心|掌|掌心
+{CentrePart({hand|手})}
+打擊樂器|PercussionInstrument 打擊樂器
+{MusicTool|樂器:predication={MakeSound|發聲:means={beat|打},instrument={~}}}
+投手|pitcher 投手
+{球員|BallPlayer:domain={baseball|棒球},predication={throw|扔:agent={~}}}
+提琴|violin 提琴
+{弦樂器|StringedInstrument}
+擴音器|megaphone 喇叭|揚聲器|擴音器
+{implement|器具:telic={enlarge|擴大:theme={sound|聲},instrument={~}}}
+攤位|booth 攤位|攤子|路邊攤
+{商店|shop:qualification={informal|非正式},size={small|小},domain={economy|經濟}}
+收入|income 所得|收入
+{wealth|錢財:predication={earn|賺:theme={~}}}
+政治人物|politician 政治家
+{專業人士|professional:domain={politics|政治}}
+教堂|church 教堂|禮拜堂
+{facilities|設施:domain={Christianity|基督宗教},telic={salute|致敬:location={~}}}
+教徒|ReligiousFollower 信徒|信眾|教徒
+{human|人:predication={believe|相信:content={religion|宗教},experiencer={~}}}
+教授|professor 教授
+{老師|teacher:location={大學|university}}
+教練|coach 教練
+{老師|teacher:domain={or({entertainment|藝},{sport|體育})}}
+斑點|spot 斑|斑點
+{trace|痕:shape={dot|點:shape={round|圓}}}
+新娘|bride 新娘|新娘子|新嫁娘
+{女性|woman:predication={GetMarried|結婚:agent={~}}}
+旅客|passenger 旅人|旅客|觀光客|遊人|遊客
+{human|人:predication={tour|旅遊:agent={~}}}
+旗子|flag 旗|旗子|旗幟
+{mark|標誌:material={or({material({clothing|衣物})},{paper|紙張})}}
+時鐘|clock 時鐘|鐘
+{tool|用具:predication={tell|告訴:content={time|時間},instrument={~}}}
+書籍|books 圖書|書|書冊|書卷|書本|書籍|籍
+{publications|書刊:component={頁|page:quantity={many|多}}}
+月亮|moon 月|月亮|月球
+{衛星|satellite:predication={GoRound|圍繞:theme={~},content={earth|大地}}}
+月桂|laurel 桂樹
+{喬木|arbor}
+月經|menses 月經|紅潮|經血
+{BodyFluid|體液:agentive={excrete|排泄:agent={女性|woman},patient={~},frequency={month|月}}}
+服務生|attendant 侍者|服務員|服務生
+{專業人士|professional:domain={economy|經濟},predication={TakeCare|照料:agent={~}}}
+期刊|periodical 刊|刊物|期刊
+{publications|書刊:predication={publish|出版:frequency={regular|定期},content={~}}}
+木耳|TreeMushroom 木耳
+{菇|mushroom:location={tree|樹}}
+杉|fir 杉
+{柏|cypress:telic={build|建造:material={~}}}
+杏子|apricot 杏|杏子
+{fruit|水果}
+杖|cane 手杖|杖|枴杖
+{tool|用具:telic={help|幫助:instrument={~},content={walk|走},means={PropUp|支撐}},length={LengthLong|長}}
+杯子|cup 杯|杯具|杯子
+{餐具|tableware:telic={put|放置:location={~},theme={drinks|飲品}}}
+松|pine 松|松樹
+{喬木|arbor:qualification={able|能:content={withstand|抗住:content={cold|冷}}}}
+板子|board 板子
+{artifact|人工物:shape={and({flat|扁},{planar|面})}}
+果樹|FruitTree 果樹
+{tree|樹:predication={reproduce|生殖:PatientProduct={fruit|水果},agent={~}}}
+果汁|FruitJuice 果汁
+{drinks|飲品:ingredients={fruit|水果}}
+架子|shelf 架子
+{tool|用具:telic={or({put|放置},{PropUp|支撐}):LocationFin={~}}}
+柏|cypress 柏|柏樹
+{tree|樹:predication={own|有:possession={葉子|leaf:shape={pointed|尖}},theme={~}}}
+柱子|pillar 支柱|柱|柱子
+{skeleton({building|建築物}):attribute={vertical|縱}}
+柳|willow 柳|柳樹
+{tree|樹:predication={own|有:possession={樹枝|TreeBranch:qualification={soft|軟}},theme={~}}}
+柳橙|orange 柑橘|柳丁|柳橙|橙
+XXXXXXXXXX
+柵欄|railings 柵欄|欄杆
+{facilities|設施:telic={obstruct|阻止:instrument={~},content={or({GoInto|進入},{GoOut|出去})}}}
+柿子|persimmon 柿|柿子
+{fruit|水果}
+校長|headmaster 校長
+{主管|superintendent:predication={manage|管理:content={學校|school},agent={~}}}
+根|root 根
+{BasePart({plant|植物}):telic={absorb|吸收:patient={water|水}}}
+桃|peach 桃|桃子
+{fruit|水果:color={red|紅:degree={light|淡}}}
+桌子|table 案|桌|桌子|檯|檯子
+{furniture|家具:telic={put|放置:location={~}}}
+桑|mulberry 桑|桑樹
+{tree|樹:telic={foster|飼養:patient={蠶|silkworm},material={~}}}
+桶子|bucket 桶|桶子
+{container|容器:shape={圓柱|cylinder},size={big|大}}
+桿子|lever 桿子
+{竿|pole:telic={control|控制:instrument={~}},length={LengthLong|長},attribute={fine|纖}}
+梨|pear 梨|梨子
+{fruit|水果}
+梯子|ladder 梯|梯子
+{tool|用具:telic={climb|攀登:instrument={~}}}
+棉|cotton 棉|棉花
+{crop|莊稼:telic={produce|製造:PatientProduct={clothing|衣物},material={~}}}
+棍子|stick 棍子|棒|棒子
+{tool|用具:length={LengthLong|長},shape={straight|直}}
+棍棒|cudgel 棍棒
+XXXXXXXXXX
+棗|date 棗
+{fruit|水果}
+棚子|shed 棚子|草棚
+{facilities|設施:size={small|小},telic={cover|遮蓋:instrument={~}}}
+棺材|coffin 棺|棺木|棺材|靈柩
+{tool|用具:telic={put|放置:theme={屍體|corpse},location={~}},shape={square|方}}
+椰子樹|CoconutTree 椰子樹
+{棕櫚|palm:location={熱帶|tropics},telic={produce|製造:PatientProduct={椰子|coconut}}}
+楊|poplar 楊
+{喬木|arbor:predication={decline|衰敗:theme={~},TimePoint={winter|冬}}}
+楓|maple 楓|楓樹
+{tree|樹:predication={red|紅:duration={autumn|秋},theme={~}}}
+槍|gun 手槍|槍|槍枝|鎗
+{weapon|武器:telic={kill|殺害:method={firing|射擊:theme={子彈|bullet}}}}
+樂譜|MusicScore 五線譜|曲譜|樂譜|譜
+{書籍|books:predication={record|記錄:LocationFin={~},content={music|音樂}}}
+樓台|balcony 陽台|陽臺|露台
+{FrontPart({building|建築物})}
+樓層|floor 樓|樓層
+{part({building|建築物}):predication={separate|分離:theme={space|空間:qualification={level|平}},direction={horizontal|橫}}}
+樓房|TallBuilding 公寓|大廈|大樓|廈|樓房|高樓大廈
+{house|房屋:component={樓層|floor:quantity={many|多}}}
+模特兒|model 模特兒
+{藝人|performer:predication={display|展示:agent={~},content={clothing|衣物}}}
+樹林|forest 叢林|林子|林木|森林|樹叢|樹林
+{tree|樹:quantity={many|多}}
+樹蔭|TreeShade 林蔭|樹蔭|綠蔭
+{影子|shadow:location={beneath({tree|樹})},temperature={chilly|涼}}
+樺|birch 樺樹
+{喬木|arbor:location={earth|大地:temperature={warm|溫}}}
+橘子|tangerine 柑桔|椪柑|橘|橘子
+{fruit|水果:color={yellow|黃},flavor={sour|酸},predication={StripOff|剝去:theme={skin|皮:whole={fruit|水果}},whole={~}}}
+機車|motorcycle 摩托車|機車
+{LandVehicle|車:predication={own|有:possession={輪子|wheel:quantity={2}},theme={~}}}
+檔案|files 檔案|電子檔
+{document|文書:whole={computer|電腦}}
+櫃子|cabinet 壁櫥|櫃|櫃子
+{furniture|家具:telic={or({put|放置},{store|保存}):location={~}}}
+櫻桃|cherry 櫻桃
+{fruit|水果}
+櫻花|CherryBlossoms 櫻|櫻花
+{花|flower}
+歌手|singer 歌手|歌者
+{藝人|performer:predication={sing|唱:agent={~}}}
+武士|warrior 戰士|武士|武夫
+{專業人士|professional:predication={able|能:content={武功|MartialArt},theme={~}}}
+殘障者|TheDisabled 殘障者
+{受害人|victim:predication={disable|殘疾:theme={~}}}
+殼|shell 外殼|殼|殼子|甲
+{or({skin|皮},{surface|表層}):attribute={hard|硬},predication={cover|遮蓋:instrument={~}}}
+氣流|AirCurrent 氣流
+{空氣|air:predication={flow|流:theme={~}}}
+氣管|trachea 氣管
+{part({呼吸器官|RespiratoryOrgan}):shape={shape({管子|tube})}}
+氧氣|oxygen 氧|氧氣
+{gas|氣:predication={inhale|吸入:theme={~},telic={CauseToLive|使活}}}
+水庫|reservoir 壩|水壩|水庫
+{facilities|設施:telic={store|保存:location={~},theme={water|水}}}
+水晶|crystal 水晶
+{寶石|gem:attribute={clear|清}}
+水流|WaterFlow 水流
+XXXXXXXXXX
+水滴|drip 水滴|水珠
+{water|水:shape={cubic|體:shape={round|圓},size={small|小}}}
+水產|AquaticProduct 水產|漁產|魚產
+{產品|product:material={fish|魚}}
+水路|waterway 水路|水道
+{route|道路:location={waters|水域}}
+水銀|mercury 水銀|汞
+{metal|金屬:qualification={StateLiquid|液態}}
+水鳥|WaterBird 水鳥
+{bird|禽:location={waters|水域}}
+汗|sweat 汗|汗水|汗液|汗珠
+{BodyFluid|體液:position={skin|皮},agentive={metabolize|代謝}}
+汙點|stain 污點
+{trace|痕:qualification={dirty|齪}}
+汽車|MotorVehicle 房車|汽車|轎車
+{LandVehicle|車:telic={TurnOn|啟動:causer={引擎|engine},patient={~}},predication={own|有:possession={輪子|wheel},theme={~}}}
+沙|sand 沙|沙土|沙子|沙石|沙粒|砂|砂子|砂石|砂礫
+{stone|土石:size={small|小:degree={very|很}}}
+河|river 川|江|江河|河|河川|河流
+{waters|水域:shape={linear|線}}
+泉水|SpringWater 泉|泉水
+{waters|水域:predication={jet|噴出:source={land|陸地},theme={~}}}
+泌尿器|UrinaryOrgans 輸尿管
+{viscera|臟:telic={excrete|排泄:patient={尿液|urine},instrument={~}}}
+法官|LawOfficer 司法官|法官
+{專業人士|professional:predication={judge|裁定:agent={~},content={案件|PoliceCase}}}
+波浪|waves 水波|波浪|波濤|波瀾|浪|浪潮|浪濤|浪花
+{water|水:qualification={uneven|不平},whole={waters|水域}}
+泥|mud 泥|泥土|泥巴|泥濘
+{union({stone|土石},{water|水}):qualification={sticky|黏}}
+洋流|OceanCurrent 洋流
+{水流|flow:qualification={constant|恆定},location={海|sea}}
+洞穴|cave 洞穴|穴|窟
+{hole({land|陸地})}
+流氓|hoodlum 地痞|惡棍|流氓|混混|痞子
+{壞人|rascal:HumanPropensity={or({despicable|卑劣},{fierce|暴})}}
+海|sea 大海|汪洋大海|洋|海|海洋
+{waters|水域:width={wide|寬:degree={very|很}},flavor={salty|鹹}}
+海岸|seacoast 沿海|海岸|海岸線|海濱
+{land|陸地:predication={BeNear|靠近:theme={~},location={waters|水域:dimension={planar|面},width={wide|寬}}}}
+海草|seaweed 海藻
+{藻類|algae:location={海|sea}}
+海鳥|seafowl 海鳥|海鷗
+{bird|禽:location={海|sea}}
+消化器|peptic 消化道|胃腸|腸胃
+{viscera|臟:telic={digest|消化:instrument={~}}}
+消防隊員|fireman 消防隊|消防隊員
+{公務員|PublicServant:predication={滅火|ExtinguishAFire:agent={~}}}
+港口|port 口岸|埠|港|港口|港埠|港灣
+{facilities|設施:telic={stay|停留:theme={ship|船},location={~}}}
+湖|lake 水潭|湖|湖泊|潭
+{waters|水域:shape={planar|面},width={wide|寬}}
+湯|soup 湯
+{food|食品:attribute={StateLiquid|液態}}
+湯匙|tablespoon 勺|匙|湯匙
+{餐具|tableware:telic={TakeOutOfWater|撈起}}
+溝|ditch 圳|水渠|水溝|渠|渠道|溝|溝渠
+{waters|水域:shape={linear|線},width={narrow|窄},size={small|小}}
+溪|stream 溪
+{河|river:size={small|小}}
+演奏家|instrumentalist 樂師|樂手|演奏家
+{音樂家|musician:domain={entertainment|藝},predication={演奏|GiveInstrumentalPerformance:agent={~}}}
+潮水|TidalWater 潮|潮水
+{波浪|waves:location={海|sea},TimeFeature={punctual|按時}}
+灌木|bush 灌木|灌木叢
+{tree|樹:predication={grow|成長:manner={assemble|聚集},theme={~}},height={low|低}}
+火柴|match 火柴
+{tool|用具:telic={lighting|點燃:instrument={~}}}
+火車|train 列車|火車
+{LandVehicle|車:predication={VehicleGo|駛:location={軌道|track},theme={~}}}
+灰塵|dust 塵|塵土|塵埃|塵沙|塵粒|沙塵|灰|灰土|灰塵
+{stone|土石:size={small|小:degree={extreme|極}}}
+炸彈|bomb 炸彈
+{彈藥|ammunition:telic={爆炸|explode:instrument={~}}}
+煙|smoke 煙|煙霧
+{CloudMist|雲霧:predication={burn|焚燒:result={~}}}
+煤炭|coal 煤|煤炭|燃煤
+{stone|土石:telic={burn|焚燒:material={~}}}
+熊|bear 熊
+{猛獸|ABeastOfPrey:size={big|大},predication={sleep|睡:duration={winter|冬},agent={~}}}
+熱帶|tropics 熱帶
+{part({earth|大地}):temperature={hot|熱}}
+燈|lamp 燈|燈具|燈飾|電燈
+{tool|用具:telic={illuminate|照射:instrument={~}}}
+燈泡|LightBulb 燈泡|電燈泡
+{part({燈|lamp}):telic={illuminate|照射:StateFin={bright|明},instrument={~}}}
+爐子|stove 火爐|爐|爐子|爐灶
+{炊具|CookingUtensils:telic={or({WarmUp|加熱:instrument={~}},{burn|焚燒:location={~}})}}
+牆壁|wall 壁|牆|牆垣|牆壁
+{part({building|建築物}):telic={separate|分離:theme={space|空間},instrument={~}}}
+版本|edition 版本
+{書籍|books:predication={publish|出版:sequence={},content={~}}}
+牙齒|tooth 牙|牙齒|齒
+{part({mouth|口}):telic={bite|啃咬:instrument={~}}}
+牛|cattle 牛
+{livestock|牲畜:telic={engage|從事:domain={agriculture|農業},agent={~}}}
+牛肉|beef 牛肉
+{肉品|meat:whole={牛|cattle}}
+牡蠣|oyster 牡蠣|蚵仔
+{貝類|shellfish}
+牧草|herbage 牧草
+{草|grass:telic={feed|餵:target={livestock|牲畜},patient={~}}}
+犀牛|rhinoceros 犀牛
+{草食獸|herbivora:predication={own|有:possession={角|horn:quantity={1}},theme={~}}}
+犯人|criminals 人犯|犯人|罪犯
+XXXXXXXXXX
+狗|dog 狗|狗兒|狗狗
+{livestock|牲畜:telic={TakeCare|照料:patient={house|房屋},agent={~}}}
+猛獸|ABeastOfPrey 猛獸
+{beast|走獸:qualification={fierce|暴}}
+猛禽|BirdOfPrey 猛禽
+{bird|禽:qualification={fierce|暴}}
+猿猴|ape 人猿|猴|猴子|猿|猿猴
+{beast|走獸:predication={alike|似:theme={~},contrast={human|人}}}
+獅|lion 獅|獅子
+{猛獸|ABeastOfPrey:qualification={HighRank|高等:degree={extreme|極}}}
+獎品|prize 獎品|獎賞
+{artifact|人工物:telic={reward|獎勵}}
+獎牌|PrizeMedal 獎牌
+{tool|用具:telic={reward|獎勵:instrument={~}}}
+獸圈|corral 棧|欄
+{facilities|設施:telic={foster|飼養:patient={beast|走獸},location={~}}}
+玉石|jade 玉|玉石
+{寶石|gem:domain={mine|礦業},material={石頭|stones}}
+玉米|corn 玉米
+{crop|莊稼:dimension={cubic|體},color={yellow|黃}}
+王子|prince 王子
+{son({君主|monarch})}
+玩具|toy 玩具|玩物|童玩
+{tool|用具:telic={recreation|娛樂:instrument={~}}}
+珍珠|pearl 珍珠|珠子|真珠
+{treasure|珍寶:shape={round|圓},color={white|白},source={貝類|shellfish}}
+珠|bead 珠|珠子
+{tool|用具:shape={round|圓},size={small|小}}
+班車|RegularBusService 班車
+{kind({LandVehicle|車}):predication={transport|運送:instrument={~},frequency={regular|定期}}}
+球|ball 圓球|球
+{SportTool|運動器材:shape={cubic|體:shape={round|圓}}}
+球員|BallPlayer 球員
+{選手|contestant:domain={sport|體育},predication={打球|PlayABallGame:agent={~}}}
+球拍|racket 拍子|球拍
+{SportTool|運動器材:shape={planar|面},telic={beat|打:instrument={~}}}
+瓜|melon 瓜
+{or({vegetable|蔬菜},{fruit|水果}):ingredients={汁|juice}}
+瓶子|bottle 瓶子
+{container|容器:telic={put|放置:location={~},theme={liquid|液}}}
+瓷器|porcelain 瓷|瓷器|磁|磁器|陶瓷|陶瓷器
+{陶器|pottery:qualification={refined|精}}
+產品|product 產品|產物
+{artifact|人工物:predication={produce|製造:PatientProduct={~}}}
+田|farmland 田|田地|農田
+{land|陸地:domain={agriculture|農業},telic={planting|栽植:location={~}}}
+甲蟲|beetle 甲蟲
+{InsectWorm|蟲:predication={own|有:theme={~},possession={wing|翅:attribute={hard|硬}}}}
+男性|man 先生|男|男人|男兒|男士|男子|男性|男生|鬚眉
+{human|人:gender={male|男}}
+畫家|painter 畫家
+{專業人士|professional:domain={entertainment|藝},predication={draw|畫:agent={~},patientproduct={圖畫|drawing}}}
+疤痕|scar 傷疤|傷痕|疤|疤痕|瘡疤
+{trace|痕:cause={wounded|受傷}}
+病人|SickPatient 患者|病人|病患
+{human|人:predication={or({ill|病態:theme={~}},{doctor|醫治:patient={~}})}}
+百合|lily 百合|百合花
+{花|flower}
+皇后|empress 王后|皇后
+{wife({君主|monarch}):qualification={orthodox|正統}}
+皇宮|palace 宮|宮廷|宮殿|王宮|皇宮
+{house|房屋:domain={royal|皇}}
+皮革|leather 皮革|革
+{skin|皮:whole={beast|走獸},telic={produce|製造:PatientProduct={artifact|人工物},material={~}}}
+盆子|tub 盆子
+{container|容器:telic={wash|洗滌}}
+盒子|box 匣子|盒子
+{container|容器:shape={square|方},qualification={durable|牢:degree={ish|稍}}}
+監獄|prison 囹圄|牢|牢獄|獄|監所|監牢|監獄
+{facilities|設施:domain={police|警},telic={detain|扣住:location={~},theme={human|人:qualification={guilty|有罪}}}}
+盤子|dish 盤子|碟
+{餐具|tableware:telic={put|放置:location={~},shape={flat|扁}}}
+眉毛|eyebrow 眉|眉毛
+{hair|毛:position={upper({eye|眼})}}
+真菌|fungus 真菌|菌|菌種|菌類
+{bacteria|微生物}
+眼淚|tears 淚|淚水|淚珠|眼淚
+{BodyFluid|體液:source={eye|眼}}
+眼球|eyeball 眼珠|眼珠子|眼球|睛
+{CentrePart({eye|眼}):dimension={cubic|體:shape={round|圓}}}
+眼眶|EyeSocket 眶|眼眶
+{surrounding({eye|眼})}
+眼鏡|glasses 眼鏡
+{tool|用具:telic={look|看:instrument={~}},predication={PutOn|穿戴:theme={~},position={eye|眼}}}
+矛|spear 矛
+{weapon|武器:telic={kill|殺害:method={stab|扎}}}
+石頭|stones 石子|石頭
+{stone|土石:hardness={hard|硬}}
+砲|cannon 大炮|大砲|火炮|炮|砲
+{weapon|武器:telic={kill|殺害:method={firing|射擊:theme={炸彈|bomb}}}}
+硬幣|coin 硬幣
+{money|貨幣:material={metal|金屬}}
+碑|stele 碑
+{mark|標誌:material={stone|土石:predication={carve|雕刻:location={~}}}}
+碗|bowl 碗
+{餐具|tableware:telic={put|放置:theme={edible|食物},location={~}},shape={round|圓}}
+礁石|reef 礁|礁石
+{岩石|rock:location={海|sea}}
+礦物|mineral 礦|礦物|礦石
+{stone|土石:domain={mine|礦業}}
+神仙|immortal 仙|仙人|祇|神|神仙|神明|神祇
+{humanized|擬人:qualification={powerful|有威力:degree={extreme|極}}}
+神經|nerves 神經
+XXXXXXXXXX
+禮物|gift 禮|禮品|禮物|贈品
+{physical|物質:telic={GiveAsGift|贈:theme={~}}}
+科系|department 學系|科系|系
+{part({大學|university}):telic={and({teach|教},{study|學習}):location={~},content={學科|BranchOfLearning}}}
+秘書|secretary 祕書|秘書
+{專業人士|professional:predication={manage|管理:content={document|文書},agent={~}},predication={help|幫助:agent={~},patient={主管|superintendent}}}
+種子|seed 種子|種籽|籽
+{part({plant|植物}):telic={reproduce|生殖}}
+稻米|rice 稻|稻子|稻米|米
+{crop|莊稼:telic={eat|吃:manner={primary|主},patient={~}}}
+空氣|air 大氣|空氣
+{gas|氣:location={surrounding({earth|大地})}}
+窗戶|window 窗|窗子|窗戶
+{part({building|建築物}):telic={or({take|取:theme={lights|光},instrument={~}},{circulate|循環:theme={gas|氣},LocationThru={~}})}}
+窮人|PoorMan 窮人|窮光蛋|貧民
+{human|人:qualification={poor|窮}}
+窯|kiln 燒窯|窯
+{工廠|factory:telic={produce|製造:PatientProduct={陶器|pottery},means={burn|焚燒},location={~}}}
+竹|bamboo 竹|竹子
+{tree|樹:qualification={empty|空:position={CentrePart({~})}}}
+竿|pole 竿|竿子
+{tool|用具:length={LengthLong|長},shape={straight|直}}
+笛子|flute 笛|笛子
+{管樂器|WindInstrument:predication={contain|包含:content={hole|洞:quantity={many|多}}}}
+筆|pen 筆
+{stationery|文具:telic={or({write|寫},{draw|畫}):instrument={~}}}
+筏子|raft 竹筏
+{ship|船:material={竹|bamboo},telic={GoForward|前進:instrument={槳|oar},theme={~}}}
+筷子|chopsticks 筷|筷子|箸
+{餐具|tableware:length={LengthLong|長},source={中國|China}}
+管子|tube 管子
+{tool|用具:qualification={empty|空:position={CentrePart({~})}}}
+箭|arrow 箭|箭矢
+{part({weapon|武器}):shape={pointed|尖}}
+箱子|box 箱子
+{container|容器:shape={square|方},qualification={durable|牢:degree={very|很}}}
+籃子|basket 簍子|籃子
+{container|容器:telic={put|放置:theme={object|物體:state={StateSolid|固態}}},predication={沒有|OwnNot:possession={蓋子|lid}}}
+籠子|cage 籠|籠子
+{tool|用具:telic={detain|扣住:theme={animal|獸},location={~}}}
+籬笆|fence 圍籬|籬|籬笆|藩籬
+{facilities|設施:telic={obstruct|阻止:content={cross|越過},instrument={~}},material={plant|植物}}
+糕餅|cake 糕|糕餅|糕點|餅
+{點心|refreshments:source={crop|莊稼}}
+糖|sugar 砂糖|糖|蔗糖
+{作料|seasoning:flavor={sweet|甜}}
+紋路|lines 紋|紋理|紋路
+{trace|痕:qualification={wrinkled|皺}}
+素食|VegetarianDish 素菜|素食
+{菜餚|dish:predication={不存在|NotExist:theme={肉品|meat},location={~}}}
+細胞|cell 細胞
+{part({animate|生物}):telic={forming|形成:PatientProduct={animate|生物}},size={small|小:degree={very|很}}}
+紳士|gentlemen 士紳|紳士
+{好人|GoodPerson:HumanPropensity={gracious|雅}}
+絨毛|fuzz 細毛|絨毛
+{hair|毛:qualification={fine|纖},attribute={soft|軟}}
+網子|net 網子
+{tool|用具:telic={catch|捉住:instrument={~},theme={or({animal|獸},{InsectWorm|蟲})}}}
+縫隙|chink 夾縫|縫|縫隙|隙|隙縫
+{trace|痕:shape={linear|線},predication={split|破開:position={~}}}
+總統|president 總統
+{元首|HeadOfState:location={country|國家:qualification={or({fair|公正},{free|自由})}}}
+織品|textile 紡織品|織品
+{material|材料:telic={clothing|衣物}}
+纖維|fiber 纖維
+{inanimate|無生物:shape={linear|線:qualification={fine|纖}}}
+缸|vat 水缸|缸
+{container|容器:telic={put|放置:theme={liquid|液}},size={big|大}}
+罐子|jug 罐子
+{container|容器:shape={圓柱|cylinder},TopPart={蓋子|lid}}
+罩子|CoveringObject 罩子
+{object|物體:telic={cover|遮蓋}}
+羊|sheep 羊
+{livestock|牲畜:telic={take|取:theme={hair|毛},source={~}}}
+美女|BeautifulWoman 佳人|紅顏|美人|美女
+{女性|woman:qualification={beautiful|美}}
+群眾|TheMasses 人們|公眾|大家|大眾|眾人|群眾
+{human|人:quantity={many|多}}
+羽毛|feather 羽|羽毛|覆羽
+{hair|毛:whole={bird|禽}}
+老人|OldPerson 老人|老人家|老年人|老者|老頭兒|銀髮族|長者
+{human|人:age={aged|老年}}
+老婦|OldWoman 老太太|老太婆|老婆婆|老婦|老嫗|阿婆
+{女性|woman:age={aged|老年}}
+老師|teacher 人師|師|教師|老師
+{專業人士|professional:qualification={able|能:content={teach|教}},domain={education|教育}}
+老闆|shopkeeper 老闆|負責人|頭家
+{商人|businessman:predication={manage|管理:agent={~}},domain={economy|經濟}}
+耳朵|ear 耳|耳朵
+{part({head|頭}):telic={listen|聽:instrument={~}}}
+聖賢|sage 完人|聖|聖人|聖哲|聖者|聖賢|賢|賢人|賢士|賢良|賢達|高士
+{human|人:HumanPropensity={and({benevolent|仁},{wise|智})}}
+肉品|meat 肉品|肉類
+{food|食品:ingredients={flesh|肉:whole={animal|獸}}}
+肌肉|muscle 肌|肌肉
+{flesh|肉:telic={CausePartMove|使部件移動:theme={~}}}
+肚子|belly 肚|肚子|腹|腹部
+{CentrePart({body|身}):shape={protruding|凸}}
+肩膀|shoulder 肩|肩膀|肩部|雙肩
+{body|身:position={InBetween({or({head|頭},{arm|臂})})}}
+胃|stomach 胃
+{消化器|peptic:position={beneath({食道|esophagus})}}
+背|back 後背|背|背部|脊背
+{HindPart({body|身})}
+胎兒|fetus 胎兒
+{embryo|胚:whole={human|人}}
+胸|chest 胸|胸脯|胸膛|胸部
+{TopPart({body|身})}
+脂肪|grease 脂|脂肪
+XXXXXXXXXX
+脊椎|vertebra 椎|脊柱|脊椎|脊椎骨|脊樑
+{bone|骨:qualification={primary|主},telic={PropUp|支撐:theme={body|身},instrument={~}}}
+脖子|neck 脖子|脖頸|頭頸|頸|頸子|頸部|頸項
+{part({head|頭}):telic={PropUp|支撐:instrument={~}}}
+腎臟|kidney 腎|腎臟
+{泌尿器|UrinaryOrgans:telic={produce|製造:PatientProduct={尿液|urine}},position={hind({腰|waist})}}
+腰|waist 腰|腰部
+{CentrePart({body|身})}
+腳趾|toe 指頭|腳尖|腳趾|腳趾頭
+{EndPart({foot|腳}):quantity={5}}
+腳踏車|bicycle 單車|腳踏車|自由車|自行車|鐵馬
+{人力車|rickshaw:component={輪子|wheel:quantity={2}}}
+腺體|gland 腺體
+{nerve|絡:telic={produce|製造:PatientProduct={內分泌|endocrine},causer={~}}}
+膽|gallbladder 膽|膽囊
+{消化器|peptic:telic={store|保存:theme={BodyFluid|體液:telic={digest|消化:patient={脂肪|fat},instrument={~}}},position={~}}}
+臉|face 臉|臉兒|臉孔|臉蛋|臉部|臉龐|面部|面龐
+{FrontPart({head|頭})}
+臉頰|cheeks 兩頰|腮幫子|臉頰|雙頰|面頰|頰
+{臉|face:position={InBetween({or({耳朵|ear},{鼻子|nose})})}}
+臥房|bedroom 寢室|臥室|臥房
+{room|房間:predication={sleep|睡:location={~}}}
+舌頭|tongue 舌|舌頭
+{internal({mouth|口}):telic={or({MakeSound|發聲:instrument={~}},{taste|嚐:instrument={~}})}}
+舞台|stage 舞台|舞臺
+{台子|platform:telic={perform|表演:location={~}}}
+船夫|crewman 水手|船員|船夫
+{工人|worker:predication={drive|駕馭:patient={ship|船},agent={~}}}
+艙|cabin 座艙|艙
+{part({vehicle|交通工具}):telic={load|裝載:location={~}}}
+芋|taro 芋|芋頭
+{根|root:whole={vegetable|蔬菜},color={purple|紫}}
+花|flower 花|花兒|花卉|花朵|華
+{FlowerGrass|花草:qualification={beautiful|美},telic={reproduce|生殖:instrument={~}}}
+花園|FlowerGarden 庭園|林園|花園
+{園林|garden:predication={planting|栽植:location={~},patient={FlowerGrass|花草}}}
+花生|peanut 土豆|花生|花生米|落花生
+{種子|seed:telic={food|食品}}
+花蕊|stamen 花蕊
+{part({花|flower}):telic={reproduce|生殖:instrument={~}}}
+芽|bud 幼苗|新苗|芽|青苗
+{plant|植物:age={child|少兒}}
+英雄|hero 勇士|勇者|壯士|好漢|英豪|英雄|豪傑
+{名人|celebrity:HumanPropensity={or({brave|勇},{noble|高尚})}}
+茶|tea 茗茶|茶|茶水|茶湯
+{drinks|飲品:ingredients={茶葉|TeaLeaves}}
+茶葉|TeaLeaves 茶菁|茶葉
+{葉子|leaf:whole={山茶|camellia},telic={drink|喝:patient={~}}}
+草|grass 草|青草
+{FlowerGrass|花草:color={green|綠},qualification={soft|軟}}
+莖|PlantStem 根莖|梗|莖
+{BodyPart({plant|植物}):telic={PropUp|支撐:instrument={~}}}
+菇|mushroom 洋菇|磨菇|蘑菇|香菇
+{真菌|fungus:predication={eat|吃:patient={~}}}
+菜餚|dish 滷菜|菜|菜餚
+{food|食品:predication={cook|烹調:PatientProduct={~}}}
+菸|tobacco 煙|菸|香煙|香菸
+{addictive|嗜好物:predication={吸煙|smoke:theme={~}}}
+葉子|leaf 葉|葉子|葉片
+{part({plant|植物}):telic={respire|呼吸:instrument={~}}}
+葡萄|grape 葡萄
+{fruit|水果:color={purple|紫},flavor={sour|酸}}
+葫蘆|calabash 葫蘆
+{vegetable|蔬菜:dimension={cubic|體:length={LengthLong|長},width={wide|寬}}}
+蓮|lotus 睡蓮|芙蓉|荷|荷花|蓮|蓮花
+{花|flower:location={waters|水域}}
+藝人|performer 演員|藝人
+{專業人士|professional:domain={entertainment|藝},qualification={able|能:content={perform|表演}}}
+藝術品|ArtisticProduction 工藝品|美術品|藝品|藝術品
+{artifact|人工物:qualification={refined|精},domain={entertainment|藝}}
+藥方|prescription 方劑|藥方|處方
+{document|文書:domain={medical|醫},agentive={write|寫:content={medicine|藥物},LocationFin={~}}}
+藻類|algae 藻|藻類
+{AlgaeFungi|低植:location={waters|水域}}
+蘿蔔|radish 菜頭|蘿蔔
+{vegetable|蔬菜}
+虎|tiger 猛虎|老虎|虎
+{猛獸|ABeastOfPrey:predication={own|有:possession={條紋|stripe},theme={~}}}
+蚊子|mosquito 斑蚊|蚊|蚊子|蚊蟲
+{InsectWorm|蟲:predication={sting|叮:agent={~}}}
+蚱蜢|grasshopper 紡織娘|蚱蜢|螽斯
+{InsectWorm|蟲:predication={jump|跳:theme={~}}}
+蛇|snake 蛇|蛇類
+{爬蟲|reptile:length={LengthLong|長},predication={not({own|有}):possession={foot|腳},theme={~}}}
+蛋|egg 卵|蛋
+{embryo|胚:whole={or({bird|禽},{爬蟲|reptile},{兩棲動物|amphibian})}}
+蜂|bee 蜂|蜜蜂|黃蜂
+{InsectWorm|蟲:predication={gather|採集:theme={蜜|honey},agent={~}}}
+蜥蜴|lizard 蜥蜴
+{爬蟲|reptile:telic={eat|吃:patient={InsectWorm|蟲},agent={~}}}
+蝦|shrimp 蝦|蝦子
+{節肢動物|diplopod:location={waters|水域}}
+蝴蝶|butterfly 蝴蝶|蝶|蝶類
+{InsectWorm|蟲:color={colored|彩},predication={fly|飛:theme={~}}}
+螃蟹|crab 螃蟹|蟹
+{節肢動物|diplopod:location={waters|水域},predication={walk|走:theme={~},manner={horizontal|橫}}}
+螞蟻|ant 螞蟻|蟻
+{InsectWorm|蟲:size={small|小},predication={FondOf|喜歡:content={food|食品:flavor={sweet|甜}},experiencer={~}}}
+螺|SpiralShell 田螺|螺
+{貝類|shellfish}
+蟬|cicada 知了|蟬
+{InsectWorm|蟲:predication={cry|喊:agent={~},location={tree|樹}}}
+蠟燭|candle 燭|蠟燭
+{tool|用具:telic={illuminate|照射:instrument={~},means={burn|焚燒}}}
+血液|blood 血|血液|鮮血
+{BodyFluid|體液:telic={transport|運送:theme={營養|nutrition},instrument={~}}}
+血球|BloodCell 血球
+{細胞|cell : whole={血液|blood}}
+行李|luggage 行囊|行李
+{artifact|人工物:telic={bring|攜帶:theme={~},while={tour|旅遊}}}
+行蹤|track 行跡|行蹤|蹤跡
+{trace|痕:cause={SelfMoveInManner|方式性自移}}
+街|street 街|街衢|街路|街道
+{route|道路:qualification={bustling|鬧},location={ResidentialArea|居民區}}
+衛星|satellite 衛星
+{celestial|天體:predication={GoRound|圍繞:theme={~},content={行星|planet},size={small|小}}}
+衣飾|DressAdornment 衣飾
+{part({clothing|衣物}):telic={decorate|裝飾}}
+表格|table 列表|表|表單|表格
+{document|文書:telic={record|記錄:LocationFin={~}}}
+袋子|bag 囊|袋子
+{tool|用具:telic={put|放置:location={~}}}
+袍|gown 袍|袍服|長衫|長袍
+{外套|overcoat:attribute={LengthLong|長}}
+袖子|sleeve 衣袖|袖|袖子
+{part({clothing|衣物}):position={arm|臂}}
+裁判|umpire 裁判
+{專業人士|professional:predication={judge|裁定:agent={~},while={compete|比賽}}}
+裙子|skirt 裙|裙子|裙裝
+{下裝|bottoms:telic={PutOn|穿戴:agent={女性|woman}}}
+裝飾品|ornament 裝飾|裝飾品|飾品|飾物
+{artifact|人工物:telic={decorate|裝飾}}
+褲子|pants 褲|褲子|褲裝
+{下裝|bottoms:location={leg|腿}}
+襪子|socks 襪|襪子
+{clothing|衣物:position={foot|腳}}
+要員|ImportantMan 大人物|要人|要員|顯要
+{human|人:qualification={important|重要}}
+角|horn 角
+{part({head|頭}):whole={animal|獸},shape={angular|角}}
+角色|role 角|角色
+{human|人:predication={perform|表演:agent={~}}}
+記者|reporter 記者
+{專業人士|professional:predication={gather|採集:theme={news|新聞},agent={~}}}
+語音|SpeechSounds 語音
+{sound|聲:whole={language|語言}}
+證券|stocks 有價證券|股票|証券|證券
+{coupon|票證:domain={economy|經濟}}
+證書|certificate 証明|證明|證明書|證書
+{document|文書:telic={prove|證明:instrument={~}}}
+警察|policeman 公安|員警|條子|警員|警官|警察
+{公務員|PublicServant:predication={keep|保持:agent={~},theme={safety({place|地方}):domain={police|警}}}}
+議員|councilor 議員
+{民意代表|representatives:predication={discuss|商討:content={affairs|事務:domain={politics|政治}},agent={~}}}
+豆子|beans 豆|豆子|豆豆|豆類
+{種子|seed:whole={vegetable|蔬菜},telic={food|食品}}
+豆腐|beancurd 豆腐
+{菜餚|dish:ingredients={豆子|beans},location={中國|China},shape={square|方}}
+豬|pig 毛豬|豚|豬
+{livestock|牲畜:telic={provide|供:theme={肉品|meat}}}
+豬肉|pork 豬肉
+{肉品|meat:whole={豬|pig}}
+貂|marten 貂
+{beast|走獸:predication={own|有:theme={~},possession={skin|皮:whole={animal|獸},telic={produce|製造:PatientProduct={or({clothing|衣物},{tool|用具})},material={~}},qualification={precious|珍}}}}
+貓|cat 貓|貓兒|貓咪
+{livestock|牲畜:telic={catch|捉住:theme={鼠|mouse},instrument={~}}}
+貝類|shellfish 貝|貝類
+{軟體動物|molluscs:location={waters|水域},predication={own|有:possession={殼|shell},theme={~}}}
+貨車|truck 卡車|貨車
+{汽車|MotorVehicle:telic={transport|運送:theme={artifact|人工物},instrument={~}}}
+貴族|aristocrat 王室|王族|貴族
+{human|人:domain={royal|皇}}
+蹄|hoof 蹄
+{foot|腳:whole={animal|獸}}
+軌道|track 軌道
+{route|道路:telic={VehicleGo|駛},material={metal|金屬},shape={linear|線}}
+軍官|officer 武官|武將|軍官|軍長
+{主管|superintendent:domain={military|軍}}
+軍艦|NavalVessel 戰艦|船艦|艦|艦艇|軍艦
+{ship|船:telic={attack|攻打:domain={military|軍},instrument={~}}}
+輪子|wheel 輪子
+{tool|用具:telic={rotate|轉動:theme={~}},shape={round|圓}}
+輪胎|tire 車輪|輪胎
+{輪子|wheel:whole={LandVehicle|車},telic={SelfMoveInManner|方式性自移:instrument={~},means={rotate|轉動}}}
+輪船|steamer 汽船|輪船
+{ship|船:predication={GoForward|前進:causer={machine|機器},theme={~}}}
+辦公室|office 辦公室
+{room|房間:telic={engage|從事:content={工作|job},location={~}}}
+農具|FarmImplement 農具
+{tool|用具:telic={agriculture|農業:instrument={~}}}
+農夫|farmer 農人|農夫|農民
+{工人|worker:predication={engage|從事:content={affairs|事務:domain={agriculture|農業}},agent={~}}}
+農產品|AgriculturalProducts 農產|農產品
+{產品|product:material={crop|莊稼}}
+道士|DaoistPriest 師公|道人|道士
+{神職人員|clergy:domain={Taoism|道教}}
+選手|contestant 運動員|運動選手|選手
+{專業人士|professional:predication={compete|比賽:agent={~},domain={sport|體育}}}
+選票|ballot 票|選票
+{bill|單據:telic={choose|選擇:instrument={~}}}
+選集|SelectedWorks 彙編|選集|集錦
+{書籍|books:predication={collect|收:theme={文章|essay},result={~}}}
+酒|liquor 酒
+{drinks|飲品:agentive={發酵|zymotic:theme={~}},telic={loosen|放鬆:instrument={~},patient={human|人}}}
+酒器|DrinkingVessel 酒器
+{container|容器:telic={飲酒|DrinkLiquor:instrument={~}}}
+醋|vinegar 醋
+{作料|seasoning:flavor={sour|酸}}
+醫師|physician 大夫|醫師|醫生|醫者
+{專業人士|professional:telic={doctor|醫治:agent={~}}}
+醫院|hospital 病院|醫院
+{facilities|設施:domain={medical|醫},telic={doctor|醫治:content={disease|疾病},location={~}}}
+野外|field 原野|山野|曠野|田野|荒野|郊野|野地|野外
+{land|陸地:qualification={desolate|荒}}
+釘子|nail 釘|釘子
+{tool|用具:telic={or({fasten|拴連:instrument={~}},{fix|定住:instrument={~}})},material={metal|金屬}}
+針|needle 針
+{tool|用具:shape={pointed|尖}}
+鈴|bell 鈴
+{tool|用具:telic={MakeSound|發聲:instrument={~}}}
+銀|silver 白銀|銀
+{metal|金屬:domain={chemistry|化學},price={expensive|貴}}
+銅|copper 銅
+{metal|金屬}
+鋒面|FrontalSurface 鋒面
+{氣團|AirMass:predication={bump|撞:agent={~},result={cold|冷}}}
+鋸子|saw 鋸|鋸子
+{tool|用具:telic={break|折斷:instrument={~}}}
+鋼|steel 不鏽鋼|鋼
+{metal|金屬:qualification={refined|精}}
+鋼琴|piano 鋼琴
+{MusicTool|樂器:predication={perform|表演:content={music|音樂},means={press|按壓},instrument={~}}}
+錫|tin 錫
+{metal|金屬:domain={chemistry|化學}}
+錶|watch 錶
+{tool|用具:telic={tell|告訴:content={time|時間},instrument={~}}}
+鍋子|pot 鍋子
+{炊具|CookingUtensils:predication={put|放置:theme={food|食品},instrument={~}}}
+鎚子|hammer 槌子|錘|鎚
+{tool|用具:telic={beat|打:instrument={~}}}
+鏈子|chain 鍊|鍊子|鏈條
+{tool|用具:shape={linear|線},predication={fasten|拴連:instrument={~}}}
+鏡子|mirror 鏡|鏡子
+{tool|用具:telic={look|看:goal={self|自己},instrument={~}},material={玻璃|glass}}
+鐵|iron 鐵
+{metal|金屬}
+鐵路|railway 軌|鐵路|鐵軌|鐵道
+{車道|TrafficLane:material={metal|金屬},shape={linear|線}}
+門|door 門|門兒
+{part({building|建築物}):telic={or({GoInto|進入},{GoOut|出去}):LocationThru={~}}}
+間諜|spy 內線|情報員|臥底|間諜
+{專業人士|professional:domain={or({military|軍},{politics|政治})},predication={scout|偵察:agent={~},manner={covert|隱秘}}}
+陶器|pottery 陶|陶器|陶塑
+{implement|器具:material={stone|土石}}
+陽光|sunlight 天日|日光|陽光
+{lights|光:source={太陽|TheSun}}
+階梯|FlightOfStairs 台階|臺階|階|階梯
+{passage({building|建築物}):telic={GoThrough|經過:means={climb|攀登},LocationThru={~}}}
+雀|passeriformes 雀
+{鳴禽|songbird:predication={cry|喊:manner={euphonious|好聽},agent={~}},size={small|小}}
+雇主|employer 僱主
+{主管|superintendent:predication={employ|僱用:agent={~}}}
+雕塑|sculpture 塑像|雕像|雕刻|雕塑|雕飾
+{藝術品|ArtisticProduction:predication={carve|雕刻:location={~}}}
+雜貨|goods 雜貨
+{產品|product:telic={living|生活狀況}}
+雞|chicken 雞
+{bird|禽:telic={provide|供:theme={肉品|meat}}}
+雨|rain 雨|雨水
+{RainSnow|雨雪:qualification={StateLiquid|液態}}
+雨衣|raincoat 雨衣
+{clothing|衣物:while={雨天|rainy}}
+雪|snow 冰雪|雪
+{RainSnow|雨雪:qualification={StateSolid|固態}}
+雲|cloud 雲|雲朵
+{CloudMist|雲霧:location={sky|空域},distance={far|遠}}
+雷聲|ThunderClap 雷聲
+{sound|聲:source={thunder|雷}}
+電話|telephone 話機|電話|電話機
+{家電|HouseholdElectricalAppliances:telic={transmit|傳送:theme={sound|聲},instrument={~},purpose={talk|談話}}}
+霞|RosyClouds 彩雲|彩霞|雲霞|霞
+{雲|cloud:color={colored|彩}}
+霧|fog 霧|霧氣
+{CloudMist|雲霧:location={地表|SurfaceOfTheEarth},distance={near|近}}
+靈魂|soul 亡靈|亡魂|幽靈|幽魂|遊魂|靈魂|魂|魂魄
+{humanized|擬人:predication={exist|存在:theme={~},TimePoint={TimeAfter({die|死})}}}
+青年|youngster 年輕人|青少年|青年|青年人
+{human|人:age={young|青年}}
+青蛙|frog 蛙|青蛙
+{兩棲動物|amphibian:predication={jump|跳:theme={~}}}
+靜脈|vein 靜脈
+{血管|BloodVessel:telic={GoBack|返回:LocationFin={heart|心},LocationThru={~}}}
+靴子|boots 靴|靴子
+{鞋子|shoes:length={LengthLong|長}}
+靶|TargetForShooting 箭靶|靶|靶子
+{tool|用具:telic={AimAt|定向:target={~},TimePoint={drill|練習:content={firing|射擊}}}}
+鞋子|shoes 鞋|鞋子
+{clothing|衣物:position={foot|腳},while={walk|走}}
+音樂家|musician 音樂家
+{專業人士|professional:domain={music|音樂}}
+領袖|leader 老大|領導|領導人|領袖|頭兒|頭子|頭目|首腦|首領
+{human|人:predication={guide|引導:agent={~}}}
+頭腦|brains 大腦|腦|腦子|腦袋|腦袋瓜|頭腦
+{part({head|頭}):telic={or({think|思考},{control|控制}):instrument={~}}}
+頭頂|CrownOfHead 腦門|頭頂
+{TopPart({head|頭})}
+頭飾|headdress 頭飾
+{clothing|衣物:telic={decorate|裝飾:patient={head|頭},instrument={~}}}
+頭髮|HeadHair 頭髮|髮
+XXXXXXXXXX
+顧問|adviser 幕僚|顧問
+{專業人士|professional:predication={guide|引導:agent={~},content={plans|規劃}}}
+顧客|customer 客戶|顧客
+{human|人:domain={economy|經濟},predication={buy|買:agent={~}}}
+風暴|storm 暴風|風暴|颶風
+{氣流|AirCurrent:qualification={strong|強}}
+風琴|organ 風琴
+{鍵盤樂器|KeyboardInstrument}
+飛機|airplane 飛機
+{aircraft|飛行器:location={earth|大地}}
+食道|esophagus 食道
+{消化器|peptic:telic={swallow|嚥下:LocationThru={~}}}
+飯|CookedRice 米食|米飯|飯
+{主食|staple:ingredients={稻米|rice},location={Asia|亞洲}}
+餐具|tableware 餐具
+{tool|用具:telic={eat|吃:instrument={~}}}
+首飾|jewels 首飾
+{tool|用具:telic={PutOn|穿戴:theme={~},purpose={decorate|裝飾}}}
+香料|spice 香料
+{作料|seasoning:flavor={TasteStrong|味濃},ingredients={vegetable|蔬菜}}
+香草|herbs 香草
+{草|grass:odor={fragrant|香},telic={cook|烹調:material={~}}}
+香蕉|banana 香蕉
+{fruit|水果:color={yellow|黃},length={LengthLong|長}}
+馬|horse 馬|馬匹
+{livestock|牲畜:telic={TakeVehicle|搭乘:patient={~}}}
+駕駛人|driver 駕駛|駕駛人|駕駛員
+{human|人:predication={drive|駕馭:agent={~},patient={vehicle|交通工具}}}
+駿馬|ExcellentSteed 駿馬
+{馬|horse:qualification={HighQuality|優質}}
+騙子|swindler 騙子
+{壞人|rascal:predication={cheat|騙:agent={~}}}
+高速公路|expressway 高速公路
+{公路|highway:predication={VehicleGo|駛:speed={fast|快},location={~}}}
+鬍鬚|beard 鬍子|鬍鬚|鬚
+{hair|毛:position={surrounding({mouth|口})}}
+鬼|ghost 惡鬼|鬼|鬼魂|鬼魅
+{humanized|擬人:qualification={ugly|醜},qualification={BeBad|衰變},predication={frighten|嚇唬:agent={~}}}
+魚網|fishnet 魚網
+{網子|net:telic={catch|捉住:instrument={~},theme={fish|魚}}}
+魚肉|FleshOfFish 魚肉
+{肉品|meat:whole={fish|魚}}
+鮭|salmon 鮭魚
+{fish|魚:predication={swim|游:manner={backward|反向},theme={~}}}
+鯉|carp 鯉|鯉魚
+{fish|魚}
+鯔|mullet 烏魚
+{fish|魚}
+鴨子|duck 水鴨|鴨|鴨子
+{水鳥|WaterBird:telic={provide|供:theme={肉品|meat}}}
+鵝|goose 鵝
+{水鳥|WaterBird:telic={provide|供:theme={肉品|meat}}}
+鶯|oriole 鶯|黃鶯|黃鸝
+{鳴禽|songbird:color={colored|彩}}
+鶺鴒|wagtail 鶺鴒
+{bird|禽:location={岸|shore}}
+鷹|hawk 老鷹|鷹
+{猛禽|BirdOfPrey:predication={打獵|hunt:agent={~}}}
+鷺鷥|egret 夜鷺|鷺鷥
+{水鳥|WaterBird:predication={eat|吃:patient={or({InsectWorm|蟲},{fish|魚})},agent={~}}}
+鹽|salt 鹽|鹽巴
+{作料|seasoning:flavor={salty|鹹}}
+鹿|deer 鹿
+{草食獸|herbivora:predication={own|有:possession={斑點|spot},theme={~}}}
+麥|wheat 小麥|麥|麥子
+{crop|莊稼:location={earth|大地:temperature={warm|溫}}}
+麵|noodles 麵|麵條
+{主食|staple:material={麵粉|WheatFlour},length={LengthLong|長}}
+麵包|bread 麵包
+{主食|staple:agentive={烤|bake:PatientProduct={~},material={crop|莊稼}}}
+麵粉|WheatFlour 麵粉
+{麥|wheat:shape={粉末|powder}}
+黃金|gold 金|金子|黃金
+{metal|金屬:qualification={precious|珍},color={yellow|黃}}
+黏土|clay 粘土|黏土
+{stone|土石:attribute={sticky|黏},telic={陶器|pottery}}
+黑板|blackboard 黑板
+{stationery|文具:shape={flat|扁},telic={write|寫:LocationFin={~},duration={temporary|臨時}}}
+點心|refreshments 茶點|零嘴|零食|點心
+{food|食品:telic={eat|吃:TimePoint={TimeSection|時段:qualification={idle|閒}},patient={~}}}
+鼓|drum 鼓
+{MusicTool|樂器:predication={MakeSound|發聲:means={beat|打},instrument={~}}}
+鼠|mouse 老鼠|鼠
+{雜食獸|OmnivorousAnimal:size={small|小},predication={bite|啃咬:agent={~}}}
+鼻子|nose 鼻|鼻子
+{part({head|頭}):telic={respire|呼吸:instrument={~}}}
+龍|dragon 龍
+{祥麟|AuspiciousAnimals:predication={fly|飛:theme={~}}}
+龜|turtle 烏龜|龜
+{爬蟲|reptile:predication={own|有:theme={~},possession={union({殼|shell},{foot|腳:quantity={4}})}}}
