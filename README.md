@@ -1,4 +1,4 @@
-# CA-EHN: Commonsense Word Analogy from E-HowNet
+# CA-EHN: Commonsense Analogy from E-HowNet
 
 CA-EHN contains:
 - 90,505 word analogies
