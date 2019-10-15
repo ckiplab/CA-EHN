@@ -20,7 +20,6 @@
 丘:山|mountain=丘陵:山|mountain=丘陵地:山|mountain=矮人:human|人
 丞相:吏|OfficialInFeudalTimes=宰相:吏|OfficialInFeudalTimes=獅:猛獸|ABeastOfPrey=獅子:猛獸|ABeastOfPrey=相爺:吏|OfficialInFeudalTimes
 丫環:女佣|maidservant=外孫:daughter|女兒=外甥:sister|姊妹=女郎:女性|woman=姐:女性|woman=姪子:brother|兄弟=孫兒:son|兒子=孫兒女:son|兒子=孫子:son|兒子=小倆口:夫妻|HusbandAndWife=小僧:僧人|monk=小妮子:女性|woman=小將:將軍|GeneralOfficer=小老弟:human|人=小開:老闆|shopkeeper=少女:女性|woman=少奶奶:婦女|MarriedWomen=少婦:婦女|MarriedWomen=少年犯:犯人|criminals=少東:老闆|shopkeeper=少爺:老闆|shopkeeper=年輕人:human|人=後起之秀:人才|talent=王子:君主|monarch=知青:學者|scholar=窮小子:窮人|PoorMan=阿嬌:美女|BeautifulWoman=阿飛:流氓|hoodlum=青少年:human|人=青年:human|人=青年人:human|人
-丫環:女佣|maidservant=女郎:女性|woman=姐:女性|woman=小倆口:夫妻|HusbandAndWife=小僧:僧人|monk=小妮子:女性|woman=小將:將軍|GeneralOfficer=小老弟:human|人=少女:女性|woman=少奶奶:婦女|MarriedWomen=少婦:婦女|MarriedWomen=少年犯:犯人|criminals=少東:老闆|shopkeeper=年輕人:human|人=後起之秀:人才|talent=知青:學者|scholar=窮小子:窮人|PoorMan=阿嬌:美女|BeautifulWoman=青少年:human|人=青年:human|人=青年人:human|人
 丫頭:女性|woman=仔豬:豬|pig=兔寶寶:兔|rabbit=女娃:女性|woman=女孩:女性|woman=女孩兒:女性|woman=女孩子:女性|woman=女童:女性|woman=妞:女性|woman=姑娘:女性|woman=孑孓:蚊子|mosquito=小妞:女性|woman=小妹妹:女性|woman=小姑娘:女性|woman=小馬:馬|horse=幼獅:獅|lion=幼苗:plant|植物=幼蟲:InsectWorm|蟲=幼雛:bird|禽=幼魚:fish|魚=新苗:plant|植物=栽:plant|植物=樹苗:tree|樹=男孩:男性|man=男孩兒:男性|man=男孩子:男性|man=男童:男性|man=秧苗:crop|莊稼=童奴:奴隸|slave=童子:男性|man=童工:工人|worker=童養媳:媳婦|WifeOfSon=羔羊:羊|sheep=花苞:花|flower=花蕾:花|flower=芽:plant|植物=蓓蕾:花|flower=蝌蚪:青蛙|frog=雛妓:妓女|prostitute=青苗:plant|植物=魚苗:fish|魚=黃毛丫頭:女性|woman
 中國菜:菜餚|dish=中餐:edible|食物=大陸妹:女孩|girl=大陸客:旅客|passenger=扯鈴:玩具|toy=竹蜻蜓:玩具|toy=華僑:僑胞|compatriots=華工:工人|worker
 中堂:公務員|PublicServant=侍郎:公務員|PublicServant=先哲:聖賢|sage=先賢:聖賢|sage=卿:公務員|PublicServant=古剎:寺廟|temple=古厝:house|房屋=古堡:城堡|castle=古寺:寺廟|temple=古廟:寺廟|temple=古物:artifact|人工物=古玉:玉石|jade=古琴:弦樂器|StringedInstrument=古籍:典籍|ClassicalBooks=古道:route|道路=古錢:money|貨幣=大夫:公務員|PublicServant=大洋:money|貨幣=大臣:公務員|PublicServant=太守:公務員|PublicServant=太常:公務員|PublicServant=學堂:學校|school=官宦:公務員|PublicServant=少尉:公務員|PublicServant=尚書:公務員|PublicServant=巡撫:公務員|PublicServant=庠序:學校|school=戟:矛|spear=提督:公務員|PublicServant=文獻:書籍|books=方舟:扁舟|SmallBoat=歷任:公務員|PublicServant=知府:公務員|PublicServant=紐姆:樂譜|MusicScore=經略:公務員|PublicServant=臣:公務員|PublicServant=臣子:公務員|PublicServant=舊作:作品|works=舊居:住所|residence=舊屬:屬下|subordinate=舊愛:情人|lover=舟:扁舟|SmallBoat=貫:money|貨幣=郎:公務員|PublicServant=陳跡:行蹤|track
@@ -680,7 +679,6 @@
 羊毛:hair|毛=羊皮:skin|皮=羊肉:肉品|meat
 義消:消防隊員|fireman=義警:警察|policeman
 翻譯:員工|staff=譯者:專業人士|professional=通譯:員工|staff
-老兄:男性|man=阿姨:女性|woman
 耳:head|頭=耳朵:head|頭=聽筒:電話|telephone=電話筒:電話|telephone
 耳環:耳朵|ear=髮網:頭髮|HeadHair
 肉湯:湯|soup=葷食:菜餚|dish
@@ -758,7 +756,6 @@
 領海:海|sea=領空:sky|空域
 食鹽:作料|seasoning=鹹水:water|水=鹹菜:vegetable|蔬菜=鹹魚:fish|魚=鹽:作料|seasoning=鹽份:作料|seasoning=鹽分:作料|seasoning=鹽巴:作料|seasoning=鹽類:作料|seasoning
 飯桌:桌子|table=飯票:coupon|票證=餐具:tool|用具=餐桌:桌子|table
-飯桌:桌子|table=餐具:tool|用具
 養母:mother|母=養父:father|父
 餓鬼:human|人=饑民:人民|people
 馬尾:tail|尾=馬背:背|back=馬蹄:foot|腳

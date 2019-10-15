@@ -2,7 +2,7 @@
 
 CA-EHN contains:
 - 90,505 word analogies
-- 766 commonsense relations
+- 763 commonsense relations
 
 For more details, please see: https://arxiv.org/abs/1908.07218
 
